@@ -137,14 +137,14 @@ models/
 checkpoints/
 
 # Output files
-*.png
-*.jpg
-*.jpeg
-*.pdf
-submission.csv
-*.csv
 results/
 outputs/
+
+# Allow important result files
+!training_history.png
+!confusion_matrix.png
+!predictions_sample.png
+!submission.csv
 
 # IDE files
 .vscode/
